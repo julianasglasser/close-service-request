@@ -15,10 +15,6 @@ namespace BaixaMassiva
         public Form1()
         {
             InitializeComponent();
-#if DEBUG
-            userField.Text = "jglasser";
-            passwordField.Text = "\"Meubebe\"*38";
-#endif
         }
         public string baixaOS(int numeroOS, string serialInstalado, string tipo, string modelo, string tecnico, string data)
         {
